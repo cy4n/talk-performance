@@ -2,9 +2,6 @@
 
 OOP 2021 Performance Testing talk resources
 
-grafana dashboard: https://grafana.com/grafana/dashboards/9935
-demo docker influxdb/grafana: https://github.com/polarnik/gatling-grafana-dashboard/
-
 for simplicity all in one repo:
 
 ### gatling
@@ -27,6 +24,13 @@ download wiremock-standaline.jar and save next to mappings folder
 ```bash
   java -jar wiremock-standalone.jar
 ```
+
+### grafana
+
+
+* grafana dashboard: https://grafana.com/grafana/dashboards/9935
+* demo docker influxdb/grafana: https://github.com/polarnik/gatling-grafana-dashboard/
+
 
 ### slides
 
