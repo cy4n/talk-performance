@@ -1,0 +1,27 @@
+{
+  "request": {
+    "url": "/api/authenticate",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.pass != 'hunter2')]"
+      }
+    ]
+  },
+  "response": {
+    "status": 401,
+    "body": "{ \"reason\": \"bad user\/password combination\" }",
+    "fixedDelayMilliseconds": 350,
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8",
+      "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "0",
+      "Date": "{{now timezone='GMT' format='EEE, d MMM yyyy HH:mm:ss z'}}"
+    }
+  },
+  "metadata": {
+    "description": "Nutzer mit falschem Passwort wird abgelehnt."
+  }
+}
+
