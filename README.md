@@ -1,6 +1,9 @@
-#talk-performance
+# continuous performance testing
 
-OOP 2021 Performance Testing talk resources
+All Day Devops 2021
+
+OOP 2021
+
 
 for simplicity all in one repo:
 
@@ -33,5 +36,7 @@ download wiremock-standaline.jar and save next to mappings folder
 
 
 ### slides
+[performance_en.pdf](https://github.com/cy4n/talk-performance/blob/main/performance_en.pdf)
 
-performance_OOP.pdf 
+
+
